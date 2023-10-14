@@ -10,6 +10,7 @@ class Main{
                 matrix[i][j] = sc.nextInt();
             }
         }
+        System.out.println("Matrix test");
         for(int i = 0; i < rows;i++){
             for(int j =0; j < cols;j++){
                 System.out.print(matrix[i][j]+" ");
